@@ -1,0 +1,21 @@
+.BoxOne {
+  align-items: center;
+  background-color: green;
+  height: 80vh;
+  width: 80vw;
+}
+.BoxTwo {
+  background-color: blue;
+  height: 40vh;
+  width: 40vw;
+}
+.BoxThree {
+  background-color: pink;
+  height: 20vh;
+  width: 20vw;
+}
+.BoxFour {
+  background-color: purple;
+  height: 5vh;
+  width: 5vw;
+}
