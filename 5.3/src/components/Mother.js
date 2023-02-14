@@ -9,11 +9,24 @@ function Mother() {
   ];
 
   return (
-    <di>
-      <h1>A Tale of five Balloons</h1>,
-      <Child name={kids[0].name} />
-      <Child name={kids[1].name} />
-    </di>
+    <>
+      <h1>A Tale of five Balloons</h1>
+      <Child style={kids[0].color}>
+        <h3>{kids[0].name}</h3>
+      </Child>
+      <Child style={kids[1].color}>
+        <h3>{kids[1].name}</h3>
+      </Child>
+      <Child style={kids[2].color}>
+        <h3>{kids[2].name}</h3>
+      </Child>
+      <Child style={kids[3].color}>
+        <h3>{kids[3].name}</h3>
+      </Child>
+      <Child style={kids[4].color}>
+        <h3>{kids[4].name}</h3>
+      </Child>
+    </>
   );
 }
 export default Mother;

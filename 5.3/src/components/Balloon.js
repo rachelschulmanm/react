@@ -1,4 +1,4 @@
 function Balloon(props) {
-  return <div>red</div>;
+  return <div className={props.color}></div>;
 }
 export default Balloon;
